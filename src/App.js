@@ -23,7 +23,7 @@ function App() {
   return (
     <>
       <Navbar title="TextUtils by" mode={mode} toggleMode={toggleMode}/>
-      <Alert alert="This is alert"/>
+      {/* <Alert alert="This is alert"/> */}
       {/* <Formtext heading="Enter the text to be converted"/> */}
       <TextForm heading="Enter the text to be converted" mode={mode}/>
     </>
